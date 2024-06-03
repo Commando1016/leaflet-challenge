@@ -1,0 +1,29 @@
+/* Remove the default margin and padding from the body. */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set map, body, and html to 100% of the screen size. */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Define text data for depth */
+.legend {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  line-height: 14px;
+}
+
+/* Define box information to hold the colors in the legend */
+.legend i {
+  float: left;
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+}
